@@ -8,3 +8,19 @@
 .b{
 	background-color: blue;
 }
+#center{
+	margin: 6%;
+
+}
+.title{
+	text-align: center;
+	margin: 5%;
+	
+}
+.card{
+	background-color: #ADD8E6;
+	border-radius: 10px;
+}
+.fora{
+	background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
