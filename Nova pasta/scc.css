@@ -1,100 +1,32 @@
-.cabecario{
+.um{
 
-	background-color: black;
-	color:white;
-
-}
-.segunda{
-	background-color:#D3D3D3;
+background-color: red;
+text-align: center;
+color: white;
 
 }
-.terca{
-	background-color:;
-
+.text{
+	background-color: red;
+	color: white;
+	text-align: center;
 }
-.qua{
-	background-color:#D3D3D3;
-
+#center{
+	background-color: white;
+	border-radius: 50% solid: 2%;
+	margin: 5%;
+	width: 90%;
+	border-color: #000000;
+	box-shadow: rgba(0, 0, 0, 0.55) 0px 54px 55px,
+ rgba(0, 0, 0, 0.42) 0px -12px 30px, rgba(0, 0, 0, 0.12) 
+ 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
 }
-.qui{
-	background-color: ;
-
-}
-.sexta{
-	background-color:#D3D3D3;
-
-}
-html, body {
-  height: 100%;
-}
-
-.wrap {
-  height: 10%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.img{
+	width: 10%;
+	display:block;
+	opacity: 1.0;
+	margin: 0%;
+	box-shadow: rgba(0, 0, 0, 0.55) 0px 54px 55px,
+ rgba(0, 0, 0, 0.42) 0px -12px 30px, rgba(0, 0, 0, 0.12) 
+ 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-#button {
-	margin: 5px;
-  min-width: 300px;
-  min-height: 60px;
-  font-family: 'Nunito', sans-serif;
-  font-size: 22px;
-  text-transform: uppercase;
-  letter-spacing: 1.3px;
-  font-weight: 700;
-  color:#696969;
-  background: 	#696969;
-background: linear-gradient(90deg, rgba(192,192,192) 0%, rgba(211,211,211) 100%);
-  border: none;
-  border-radius: 1000px;
-  box-shadow: 12px 12px 24px rgba(169,169,169);
-  transition: all 0.3s ease-in-out 0s;
-  cursor: pointer;
-  outline: none;
-  position: relative;
-  padding: 10px;
-  }
-
-#button::before {
-content: '';
-  border-radius: 1000px;
-  min-width: calc(300px + 12px);
-  min-height: calc(60px + 12px);
-  border: 6px solid #00FFCB;
-  box-shadow: 0 0 60px rgba(169,169,169);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: all .3s ease-in-out 0s;
-}
-
-#button:hover, .button:focus {
-  color:	#696969;
-  transform: translateY(-6px);
-}
-
-#button:hover::before, #button:focus::before {
-  opacity: 1;
-}
-
-#button:hover::after, #button:focus::after {
-  animation: none;
-  display: none;
-}
-
-@keyframes ring {
-  0% {
-    width: 320px;
-    height: 30px;
-    opacity: 1;
-  }
-  100% {
-    width: 300px;
-    height: 300px;
-    opacity: 0;
-  }
-}
